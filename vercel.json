@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY": "@next_public_alpha_vantage_api_key",
+    "NEXT_PUBLIC_FINNHUB_API_KEY": "@next_public_finnhub_api_key",
+    "NEXT_PUBLIC_POLYGON_API_KEY": "@next_public_polygon_api_key",
+    "DATABASE_URL": "@database_url",
+    "NEXTAUTH_URL": "@nextauth_url",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "MAX_POSITION_SIZE": "@max_position_size",
+    "PRICE_TOLERANCE": "@price_tolerance",
+    "RISK_LEVEL": "@risk_level",
+    "ENABLE_REAL_TIME_UPDATES": "@enable_real_time_updates",
+    "ENABLE_AI_PREDICTIONS": "@enable_ai_predictions",
+    "ENABLE_SOCIAL_SENTIMENT": "@enable_social_sentiment",
+    "SENTRY_DSN": "@sentry_dsn",
+    "LOG_LEVEL": "@log_level"
+  }
+} 
